@@ -1,0 +1,41 @@
+body{
+    background-color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+button{
+    margin: auto;
+    display: block;
+}
+
+.container{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    background-color: white;
+    padding: 1rem 2rem;
+}
+
+.formulario{
+    padding: 1em;
+    background-color: white;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+#resultado{
+    width: fit-content;
+    float: right;
+    overflow: auto;
+    background-color: white;
+    padding: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3em;
+    border-radius: 5px;
+    margin: 100px auto;
+}

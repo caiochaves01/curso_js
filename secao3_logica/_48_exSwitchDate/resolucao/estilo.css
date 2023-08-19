@@ -1,0 +1,10 @@
+.container{
+    margin: 100px auto;
+    background-color: white;
+    width: fit-content;
+    padding: 1rem 2rem;
+}
+
+body{
+    background-color: brown;
+}

@@ -1,0 +1,1 @@
+let [{tag,  texto}, { tag1, texto1}] = elementos

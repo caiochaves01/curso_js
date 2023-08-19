@@ -1,0 +1,27 @@
+body{
+    background-color: brown;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: white;
+    padding: 1em;
+    width: 25em;
+    text-align: center;
+}
+
+.relogio{
+    font-size: 5em;
+}
+
+.pausado{
+    color: red;
+}
+
+button{
+    font-size: 1.2em;
+    padding: 1em 1.5em;
+}

@@ -1,0 +1,14 @@
+body{
+    background-color: brown;
+    margin: 0;
+}
+
+.container{
+    background-color: white;
+    padding: 1.25rem;
+}
+
+p{
+    background-color: blue;
+    color: white;
+}

@@ -1,0 +1,2 @@
+// === igualdade restrita
+// diferenca "restrita"

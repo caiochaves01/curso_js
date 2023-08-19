@@ -1,0 +1,19 @@
+body{
+    
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.container{
+    background-color: white;
+    width: 30rem;
+    padding: 2rem;
+}
+
+.container p{
+    margin-bottom: 0.75rem;
+}
