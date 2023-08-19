@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        let nome_completo = "Caio Chaves";
+        document.body.innerHTML = `Nome completo: <strong>${nome_completo}</strong><br>`;
+        document.body.innerHTML += `Quantidade de letras no nome: <strong>${nome_completo.length}</strong><br>`;
+        document.body.innerHTML += `Primeiro letra 'a' no nome: <strong>${nome_completo.indexOf('a')}</strong><br>`;
+        document.body.innerHTML += `Última letra 'a' no nome: <strong>${nome_completo.lastIndexOf('a')}</strong><br>`;
+        document.body.innerHTML += `As 3 primeiras letras do nome: <strong>${nome_completo.slice(0,3)}</strong><br>`;
+        document.body.innerHTML += `As 3 últimas letras do nome: <strong>${nome_completo.slice(-3, nome_completo.length)}</strong><br>`;
+
+    </script>
+</body>
+</html>
